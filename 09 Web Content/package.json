@@ -1,0 +1,20 @@
+{
+  "name": "09-web-content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --exec electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^32.1.2",
+    "electron-window-state": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
