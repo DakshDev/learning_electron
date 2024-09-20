@@ -1,33 +1,3 @@
-// const {app, BrowserWindow} = require("electron");
-
-
-// function createWindow(){
-//     const win = new BrowserWindow({
-//         width: true,
-//         height: true,
-//         title: "Window Parent",
-//         webPreferences: {
-//             nodeIntegration: true,
-//         }
-//     })
-//     const child = new BrowserWindow({
-//         parent: win,
-//         title: "Window Child",
-//     })
-//     win.loadFile("./index.html");
-//     child.loadFile("./child.html")
-// }
-
-// app.whenReady().then(()=> createWindow());
-
-
-
-
-
-
-
-
-
 const {app, BrowserWindow} =  require("electron");
 
 function createMainWindow(){

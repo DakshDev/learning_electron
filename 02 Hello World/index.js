@@ -11,7 +11,7 @@ function createDesktopApp(){
     })
 
     win.loadFile("./index.html");
-    // For Opening Devtools
+    // For Opening Web Devtools
     win.webContents.openDevTools()
     
 }

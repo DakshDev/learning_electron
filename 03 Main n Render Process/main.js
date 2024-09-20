@@ -1,5 +1,6 @@
 const {app, BrowserWindow} = require("electron");
 
+// This console run in terinal
 console.log("Main Process")
 function createDesktopApp(){
     const win = new BrowserWindow({

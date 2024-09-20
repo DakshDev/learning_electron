@@ -10,13 +10,14 @@ function createMainWindow(){
 }
 
 
-// app.whenReady().then(()=>{
-//     createMainWindow();
+// app.whenReady().then(()=>{ // =============> same
+//     createMainWindow();              
 // })
 
 
-// Events       =>  More event has go document and check
-app.on("ready",()=>{
+
+
+app.on("ready",()=>{  // =============> same
     createMainWindow();
 })
 
@@ -32,3 +33,6 @@ app.on("browser-window-focus",()=>{
 app.on("browser-window-blur",()=>{
     console.warn("Out")
 })
+
+
+// Events       =>  For More event check electron DOC
